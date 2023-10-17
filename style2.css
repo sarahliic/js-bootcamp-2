@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px red solid;
+}
+
+.div-container {
+  width: 100%;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.welcome {
+  width: 100%;
+  padding: 5%;
+  background-color: #3d479e96;
+  color: wheat;
+  text-align: center;
+}
+.welcome h1 {
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.welcome p {
+  font-size: 1rem;
+}
+.welcome ul li {
+  list-style: none;
+  margin-left: -10%;
+  margin-top: 5%;
+}
+.welcome ul li a {
+  width: 40%;
+  text-align: center;
+  margin-left: 10%;
+  /* margin: 2%; */
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.same-page {
+  background-color: rgb(173, 230, 173);
+  color: rgba(0, 0, 0, 0.658);
+  text-align: center;
+  width: 100%;
+  padding: 5%;
+}
+.same-page p {
+  margin-top: 5%;
+}
+a {
+  border-radius: 10%;
+  list-style: none;
+  color: #000;
+  text-decoration: none;
+  background-color: antiquewhite;
+  padding: 2%;
+}
+
+.no-style {
+  width: 100%;
+  padding: 5%;
+  background-color: #7343a02f;
+  color: #4e1313;
+  text-align: center;
+}
+.no-style p {
+  margin-top: 5%;
+}
+.side-bar {
+  background-color: lightblue;
+  color: rgba(0, 0, 0, 0.658);
+  text-align: center;
+  width: 100%;
+  padding: 5%;
+}
